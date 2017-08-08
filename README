@@ -1,0 +1,23 @@
+==================================
+WMH Segmentation - Miccai challenge
+==================================
+
+BSD 2-Clause License
+Copyright (c) 2017, Mariana Bento and collaborators
+All rights reserved.
+
+
+Description
+-----------
+
+This code automatically segments White Matter Hyperintensities on MR images.
+It uses T1 and FLAIR images and performs a pixel classification by using
+texture attributes.
+
+code to run: wmhseg_final.py 
+inputs: T1 image, FLAIR image and the folder where the output is going to be stored
+
+Example:
+>> python wmhseg_final.py data/T1.nii.gz data/FLAIR.nii.gz output
+
+ 
