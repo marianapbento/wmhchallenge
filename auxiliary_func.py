@@ -449,5 +449,5 @@ def wmseg(img_path):
         f = mxt.recConnectedComponent(node)
         f = binary_dilation(f,ones((3,3,3)))
     except:
-        f = mxt.recConnectedComponent(node)
+        f = mxt.recConnectedComponent(0)
     return f.transpose(2,1,0)
